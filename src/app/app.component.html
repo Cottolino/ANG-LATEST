@@ -1,0 +1,18 @@
+<h1>User management system</h1>
+
+<div class="main">
+    <div class="users">
+        <!-- (updateUser) Listener -->
+        <!-- updateUser($event) è un metodo dio APP.COMPONMENT => aggiorna selezionato USER form -->
+        <app-users (updateUser)="updateUser($event)"></app-users>
+        <!-- oggetto concatenato -->
+    </div>
+
+    <div class="userDetail" *ngIf="ShowForm">
+        <!-- userSelected è un campo APP.COMPONENT -->
+        <!-- che viene compilato dai figli eventi -->
+        <app-user-detail [user]="userSelected"></app-user-detail>
+        <!-- oggetto per visualizzazione FORM -->
+    </div>
+</div>
+

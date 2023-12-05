@@ -1,0 +1,27 @@
+table
+{
+    border: 1px solid grey
+}
+th
+{
+    color: green;
+    background-color: black;
+    padding: 5px;
+
+}
+th,td
+{
+    padding: 5px;
+    border: 1px solid white;
+}
+td
+{
+    background-color: silver;
+    color: red;
+}
+.search
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
